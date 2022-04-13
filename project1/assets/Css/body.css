@@ -1,0 +1,154 @@
+header
+{
+    height: 80px;
+    background-color: black;
+}
+h1.ex1
+{
+    margin: 0;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+section.sec1{
+    position:fixed;
+    margin-left: 0px;
+    width: 400px;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+img{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 60%;
+}
+#name1{
+    position: relative;
+    height: 20px;
+    left: 50px;
+    font-family:noto serif cjk tc black ;
+    font-size: 50px;
+}
+#name2{
+    position: relative;
+    height: 10px;
+    left: 50px;
+    font-family:noto serif cjk tc black ;
+    font-size: 20px;
+}
+#name3{
+    position: relative;
+    height: 10px;
+    left: 50px;
+    font-family:noto serif cjk tc black ;
+    font-size: 20px;
+}
+#name4{
+    position: relative;
+    height: 10px;
+    left: 50px;
+    font-family:noto serif cjk tc black ;
+    font-size: 20px;
+}
+#name5{
+    position: relative;
+    height: 10px;
+    left: 10px;
+    font-family:noto serif cjk tc black ;
+    font-size: 20px;
+}
+div.ex1{
+    position: absolute;
+    right: 400px;
+    columns: 2 auto;
+    column-gap: 300px;
+}
+body {
+    background-color:silver  ;
+    font-family: Helvetica, sans-serif;
+  }
+* {box-sizing: border-box}
+
+.container {
+    width: 300%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.html {width: 70%; background-color: plum;}
+.css {width: 60%; background-color: plum;}
+.js {width: 50%; background-color: plum;}
+.c {width: 80%; background-color: plum;}
+.java {width: 75%; background-color: plum;-webkit-column-break-after:always;}
+.txt {width: 80%; background-color: plum;}
+.video {width: 55%; background-color: plum;}
+section.sec2{
+    position: absolute;
+    left: 560px;
+    top: 600px;
+    font-size: larger;
+}
+div.ex2{
+    columns: 2 50px;
+    column-gap: 30px;
+	column-rule: yellow solid 1px;
+    text-align:justify;
+
+}
+img.ex1{
+    width: 80%;
+}
+img.ex2{
+    width: 400px;
+    height: 280px;
+}
+p.ex1{
+    -webkit-column-break-after: always;
+}
+div.ex3{
+    columns: 2 50px;
+    column-gap: 30px;
+	column-rule: yellow solid 1px;
+    text-align:justify;
+
+}
+footer
+{
+    position: absolute;
+    top: 1700px;
+    width: 100%;
+    z-index: -1;
+    margin-top: 100px;   
+    height: 100px;
+    background-color: black;
+}
+img.ex3
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+img.ex4
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 35px;
+    left: 4px;
+}
