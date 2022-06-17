@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+</head>
+<body>
+    <div class="login_page">
+        <div id="container1">
+            <div class="login">
+                <a href="index.html"><img class="backup" src="../assets/images/backup.png"></a>
+                <h3>登入 Login</h3>
+                <img class="ex1" src="../assets/images/login.png">
+                <form action="">
+                <input type="text" id="username" name="username" placeholder="帳號" required>
+                <input type="text" id="password" name="password" placeholder="密碼" required>
+                <input type="submit" value="登入" class="submit">
+                </form> 
+                <h5 onclick="show_hide()" style="cursor: pointer;">註冊帳號</h5> 
+            </div>
+        </div>
+    </div>
+    <div class="signup_page">
+        <div id="container2">
+            <div class="signup"> 
+                <a href="index.html"><img class="backup" src="../assets/images/backup.png"></a>
+                <h3>註冊 Sign Up</h3>
+                <img class="ex1" src="../assets/images/login.png">
+                <form action="">
+                <input type="text" id="fullname" name="fullname" placeholder="使用者全名" required>
+                <input type="text" id="username2" name="username" placeholder="帳號" required>
+                <input type="text" id="password2" name="password" placeholder="密碼" required>
+                <input type="text" id="re_password" name="comfirm_password" placeholder="確認密碼" required>
+                <input type="text" id="phone" name="phone" placeholder="電話" required>
+                <input type="submit" value="註冊" class="submit">
+                </form>  
+                <h5 onclick="show_hide()" style="cursor: pointer;">登入帳號</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="../assets/js/login.js"></script>

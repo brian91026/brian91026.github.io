@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+}
+article{
+    background-image: url(../images/background2.jpg);
+    background-color: white;
+    background-repeat:repeat-y;
+    height: 1000px;
+    margin: 0px;
+}
+h1.bigtitle{
+    padding: 0px;
+    margin: 0px auto;
+    font-size: 50px;
+    margin-bottom:5%;
+    margin-left: 3%;
+    padding-left: 3%;
+    width: 50%;
+    border-left: solid rgb(118, 139, 117) 10px;
+    top: 170px;
+    left: 50px;
+    position: relative;
+}
+#membershow{
+    background-color: whitesmoke;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 700px;
+    top: 150px;
+    position: relative;
+}
+.myinfor{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    height: 320px;
+    background-color:  rgb(41, 200, 221);
+}
+img.member{
+    width: 20%;
+    float: left;
+    margin: 5%;
+    position: relative;
+}
+#name, #account, #password, #phone{
+    padding: 0px;
+    margin: 0px auto;
+    width: 80px;
+    border-right: solid black 5px;
+    position: relative;
+    float: left;
+    top: 50px;
+}
+input.Signout{
+    background-color: rgb(41, 200, 221);
+    color: black;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    top: -100px;
+    border-radius: 10%;
+}
+input.Signout:hover{
+    background-color: white;
+    border: 2px solid rgb(41, 200, 221)white;
+}
+p.num{
+    height: 60px;
+    position: relative;
+    left: 50px;
+    top: 52px;
+}
+.memberlist{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    background-color: rgb(90, 179, 164);
+    float: left;
+}
+.memberlist ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    position: relative;
+}
+.memberlist li{
+    padding: 5.9px 213.5px 5.9px 213.5px;
+    border: white 2px solid;    
+    background-color: none;
+    font-weight: bold;
+    color: rgb(12, 4, 4);
+    cursor:pointer;
+    float: left;
+}
+.inforupdate{
+    position: relative;
+    top: 40px;
+    left: 320px;
+
+}
+.up{
+    padding: 0px;
+    margin: 0px auto;
+    width: 80px;
+    border-right: solid black 5px;
+    position: relative;
+    float: left;
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input.update{
+    height: 35px;
+    width: 25%;
+    position: relative;
+    left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h5:hover{
+    color: rgb(27, 221, 27);
+}
+input.updatebut{
+    background-color: white;
+    color: black;
+    border: 2px solid #61a0bdd5;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    position: relative;
+    left: 175px;
+}
+input.updatebut:hover{
+    background-color: #61a0bdd5; 
+    color: white;
+}
+.order{
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+}
+.goodname{
+    float: left;
+    width: 30%;
+}
+.goodnum{
+    float: left;
+    position: relative;
+    left: 10%;
+    width: 30%;
+}
+.goodprice{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    width: 30%;
+}
+
