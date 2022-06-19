@@ -1,0 +1,48 @@
+.sideMenu {
+    width: 200px;
+    height: 700px;
+    background-image: url(../images/menu.jpg);
+    border-right: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    box-shadow: 5px 0 5px hsla(240, 40%, 15%, .6);
+    position: fixed;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    float: left;
+    z-index: 999;}
+    
+label{
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background-color: white;
+    color: #686666;
+    right: -20px;
+    top: -200px;
+    bottom: 0;
+    margin: auto;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 5px 0 5px hsla(240, 40%, 15%, .6);
+}    
+#sideMenu--active:checked+.sideMenu {
+    transform: translateX(0);
+}
+#sideMenu--active {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+p.menutitle{
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    border-bottom: solid black 2px;
+    font-weight: bold;
+    text-align: center;
+}

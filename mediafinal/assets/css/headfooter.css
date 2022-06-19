@@ -1,0 +1,130 @@
+header{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    
+    
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    z-index: 2;
+}
+header img:hover{
+    filter: invert(1);
+}
+h1.ex1{
+    background-color: #243949;
+    background-image: linear-gradient(to right, rgb(37,58,75) 0%, rgb(41,65,83) 100%);
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    float:left;
+    
+    /*font-family: 'Kalam', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Yellowtail', cursive;*/
+    
+}
+img.ex1{
+    background-color:  #517fa4;
+    
+    position: relative;
+    float:right;
+    right: 12px;
+    top: 15px;
+}
+img.ex2{
+    background-color: cornflowerblue;
+    
+    position: relative;
+    float:left;
+    top: 22px;
+    left: 20px;
+    padding: 10px;
+}
+section.sec1{
+    background-color: cornflowerblue;
+    position:relative;
+    float:left;
+    left: 860px;
+    width: 350px;
+    height: 100px;
+}
+h2.ex1{
+    background-color: cornflowerblue;
+    float:left;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.v-line1{
+    border-left: thick solid #000;
+    height:40%;
+    top: 29px;
+    left: 10px;
+    position:relative;
+    float:left;
+}
+.search{
+    position: relative;
+    float: right;
+    top: 75px;
+    left: 30px;
+}
+footer{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    z-index: 2;
+}
+section.sec2{
+    position:relative;
+    float: left;
+}
+h1.ex2{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 30px;
+}
+hr.ex1{
+    width: 250px;
+    color: white;
+    margin-top: 15px;
+}
+h3.ex1{
+    color: white;
+}
+h2.ex2{
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+    float: left;
+}
+section.sec3{
+    position:relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+}
+h2.ex3{
+    color: white;
+    float:left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+hr.ex2{
+    position: relative;
+    width: 100%;
+    color: gray;
+    top: 25px;
+}
+h3.ex2{
+    color: white;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
